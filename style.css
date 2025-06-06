@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #8A2BE2
+; /* Changed this line */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: violet; /* Also made container same color */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: violet;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  min-width: 80px;
+}
+
+.box span {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+.bbox{
+    background:white;
+    border-radius: 10px;
+    padding-top: 10px;
+    
+}
+.date{
+    background:grey;
+}
